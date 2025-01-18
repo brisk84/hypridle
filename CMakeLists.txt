@@ -42,7 +42,7 @@ pkg_check_modules(
   wayland-client
   wayland-protocols
   hyprlang>=0.4.0
-  hyprutils>=0.2.0
+  hyprutils>=0.3.3
   sdbus-c++>=0.2.0)
 
 file(GLOB_RECURSE SRCFILES CONFIGURE_DEPENDS "src/*.cpp")
